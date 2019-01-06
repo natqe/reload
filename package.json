@@ -3,7 +3,7 @@
     "displayName": "reload",
     "description": "add reload button to status bar right bottom",
     "publisher": "natqe",
-    "version": "0.0.2",
+    "version": "0.03",
     "repository": "https://github.com/natqe/reload.git",
     "icon": "images/icon.PNG",
     "engines": {

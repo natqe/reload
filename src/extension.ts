@@ -2,13 +2,13 @@ import { StatusBarAlignment, window } from 'vscode'
 
 export function activate() {
 
-    const statusBar = window.createStatusBarItem(StatusBarAlignment.Right, 1)
+    const statusBar = window.createStatusBarItem(StatusBarAlignment.Right, 0)
 
     statusBar.text = `Reload`
 
     statusBar.command = `workbench.action.reloadWindow`
 
-    statusBar.tooltip = `reload window`
+    statusBar.tooltip = `Reload window`
 
     statusBar.show()
 
